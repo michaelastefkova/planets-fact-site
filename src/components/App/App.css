@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--color-white: #ffffff;
+	--color-black: hsl(240, 67%, 8%);
+	--color-dark-grey: hsl(240, 17%, 26%);
+	--color-light-grey: hsl(240, 6%, 54%);
+	--color-mercury: hsl(194, 48%, 49%);
+	--color-venus: hsl(33, 82%, 61%);
+	--color-earth: hsl(263, 67%, 51%);
+	--color-mars: hsl(10, 63%, 51%);
+	--color-jupiter: hsl(2, 68%, 53%);
+	--color-saturn: rgb(203, 80, 32);
+	--color-uranus: hsl(169, 73%, 44%);
+	--color-neptune: hsl(222, 87%, 56%);
+}
+
+:root {
+	--ff-spartan: "Spartan", sans-serif;
+	--ff-antonio: "Antonio", sans-serif;
+	--ff-base-size: 14px;
+}
+
+:root {
+	--button-hover: #313148;
+}
+
+html {
+	font-size: var(--ff-base-size);
+}
+
+body {
+	font-family: var(--ff-spartan);
+	line-height: 25px;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	background: url(../../images/background-stars.svg) left top/cover no-repeat
+		var(--color-black);
+}
+
+@media only screen and (min-width: 1110px) {
+	body {
+		height: 100vh;
+	}
+}
+
+h1,
+h2 {
+	font-family: var(--ff-antonio);
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 2.85rem;
+	line-height: 103px;
+	color: var(--color-white);
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+	h1 {
+		font-size: 5.71rem;
+	}
+}
+
+h2 {
+	font-size: 1.42rem;
+	line-height: 52px;
+	letter-spacing: -1px;
+}
+
+@media only screen and (min-width: 768px) {
+	h2 {
+		font-size: 1.71rem;
+		letter-spacing: -1.5px;
+	}
+}
+
+@media only screen and (min-width: 1110px) {
+	h2 {
+		font-size: 2.85em;
+	}
+}
+
+h3 {
+	font-size: 0.85em;
+	line-height: 25px;
+	letter-spacing: 2.6px;
+}
+
+h4 {
+	font-size: 0.78em;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+
+p {
+	font-size: 11px;
+}
+
+@media only screen and (min-width: 1110px) {
+	p {
+		font-size: var(--ff-base-size);
+	}
+}
+
+.nav-opened {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+@media only screen and (min-width: 1110px) {
+	#root {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+}
