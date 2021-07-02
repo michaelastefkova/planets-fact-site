@@ -24,13 +24,9 @@ Users should be able to:
 -   See hover states for all interactive elements on the page
 -   View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
 
-### Screenshot
-
-![](https://ccreusat-planets-fact.vercel.app/images/screenshot.png)
-
 ### Links
 
--   Solution URL: [Solution page](https://www.frontendmentor.io/solutions/planets-fact-using-reactjs-eafGeElf9)
+https://planets-fact-site-3uj39vgq2-michaelastefkova.vercel.app/
 -   Live Site URL: [Live site](https://ccreusat-planets-fact.vercel.app/)
 
 ## My process
@@ -46,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned that writing CSS with Styled Components takes a really long time when I could write it faster in sass or pure css :-)
+I learned that writing CSS with Styled Components takes really long time when I could write it faster in sass or pure css :-)
 
 ### Continued development
 
@@ -55,4 +51,4 @@ Looking for time to add a swipe functionnality to change tabs components.
 ## Author
 
 -   Github - [Michaela Stefkova](https://github.com/michaelastefkova)
--   Frontend Mentor - [@ccreusat] (https://www.frontendmentor.io/profile/mishka27)
+-   Frontend Mentor - [@mishka27] (https://www.frontendmentor.io/profile/mishka27)
